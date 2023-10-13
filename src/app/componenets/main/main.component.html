@@ -1,0 +1,13 @@
+<div class="container-fluid ">
+    <div class="container-fluid text-center w-50 my-5  py-1">
+        <p class="display-3">Pricing</p>
+        <p class="lead">
+            Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.
+        </p>
+    </div>
+    <div class="container d-flex justify-content-around">
+        <div *ngFor="let card of cards">
+            <app-card [card]="card"></app-card>
+        </div>
+    </div>
+</div>
